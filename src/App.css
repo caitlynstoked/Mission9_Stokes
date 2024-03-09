@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px; /* Adjust width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.team-box h2 {
+  margin-top: 0;
+}
+
+.team-box h3 {
+  margin-bottom: 8px;
+}
+
